@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>AdrianCalderonPortafolio</title>
+</head>
+<body>
+    
+    <!--navbar-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #f7f4f4;">
+                <a class="navbar-brand" href="index.html">Adrián Calderón Fullstack developer</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="proyectos.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contacto
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="mailto:adrimarceaxel@gmail.com">Mandame un Email</a>
+                        <a class="dropdown-item" href="https://github.com/Arcangelmetal7?tab=repositories">Mira mis repositorios en Github</a>
+                       
+                      </div>
+                    </li>
+                  
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-primary my-2 my-sm-0" type="submit">Buscar</button>
+                  </form>
+                </div>
+              </nav>
+            </div>
+        </div>
+        </div>
+        <br>
+    <!--cv-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/fotoCv.png" class="img-fluid" alt="fotoCv">
+            </div>
+            <div class="col-md-8">
+                <table class="table">
+                    <thead class="table table-dark">
+                        <tr ><th class="text-center">
+                            DATOS PERSONALES
+                        </th><th></th></tr>
+                    </thead>
+                    <tbody>
+                    <tr><td><label for="">Nombre: </label></td> <td>Adrián Calderón</td></tr>
+                    <tr><td><label for="">E-mail: </label> </td> <td><a href="mailto:adrimarceaxel@gmail.com">adrimarceaxel@gmail.com</a></td></tr>
+                    <tr><td><label for="">Edad: </label> </td> <td>36 años</td></tr>
+                    <tr><td><label for="">Residencia: </label> </td> <td>Buenos Aires, Argentina</td></tr>
+                    <tr><td><label for="">Estado civil: </label></td> <td>Soltero</td></tr>
+                    <tr><td><label for="">Telefono: </label></td> <td>+54 011 1537735819</td></tr>
+                </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!--Educacion-->
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center">INFORMACION ACADEMICA</h2>
+        </div>
+        <div class="row">
+            <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        TECNICO SUPERIOR EN DESARROLLO DE SOFTWARE
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <!--CONTENIDO COLLAPSE1-->
+                        <table class="table">
+                            
+                            <tr><td><label for="">INSTITUCIÓN: </label></td> <td>I.F.T.S. N°29</td></tr>
+                            <tr><td><label for="">ESTADO: </label> </td> <td>En curso</td></tr>
+                            <tr><td><label for="">DESCRIPCIÓN: </label> </td> <td>Tecnicatura superior en la implementación de las ultimas tecnologías en el desarrollo de nuevo software.</td></tr>
+                            
+                        
+                        </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        CODO A CODO-CURSO FULLSTACK DE PROGRAMACIÓN JAVA/ANGULAR
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+
+                         <!--CONTENIDO COLLAPSE2-->
+                         <table class="table">
+                            
+                            <tr><td><label for="">INSTITUCIÓN: </label></td> <td>Curso codo a codo (C.A.B.A.)</td></tr>
+                            <tr><td><label for="">ESTADO: </label> </td> <td>Finalizado</td></tr>
+                            <tr><td><label for="">DESCRIPCIÓN: </label> </td> <td>Curso fullstack en programacion de aplicaciones utilizando lenguaje Java(SE y EE)y su framework Spring para construccion de back-end y templates del lado del servidor, como tambien desarrollo en Javascript/Typescript con su framework Angular para la creación de aplicaciones para el Front-end.<br>
+                            Manejo de bases de datos y lenguaje SQL, como tambien el manejo de sus gestores de bases de datos(PostgreSQL, MySQL, Oracle, etc.). <br>
+                            Manejo de control de versiones en Git y GitHub. <br>
+                            Manejo de Docker y deploy de aplicaciones.</td></tr>
+                            
+                        
+                        </table>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            PROFESORADO EN CIENCIAS NATURALES ESPECIALIZACIÓN EN FÍSICA
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+
+                              <!--CONTENIDO COLLAPSE3-->
+                        <table class="table">
+                            
+                            <tr><td><label for="">INSTITUCIÓN: </label></td> <td>I.S.F.D. N°41 (Adrogue)</td></tr>
+                            <tr><td><label for="">ESTADO: </label> </td> <td>En curso</td></tr>
+                            <tr><td><label for="">DESCRIPCIÓN: </label> </td> <td>Profesorado para escuela secundaria ,escuela tecnica o terciario, en ciencias naturales. Especializado en la materia Física.</td></tr>
+                            
+                        
+                        </table>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+    </div>
+    <br>
+
+    <!--Experiencia-->
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center">EXPERIENCIA LABORAL</h2>
+        </div>
+
+        <div class="row">
+            <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                        JUNIOR DEVELOPER JAVA
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                        <!--CONTENIDO COLLAPSE1-->
+                        <table class="table">
+                            
+                            <tr><td><label for="">EMPRESA: </label></td> <td>Kynectis</td></tr>
+                            <tr><td><label for="">TIEMPO EN EL PUESTO: </label> </td> <td>Septiembre de 2022 a Diciembre de 2022</td></tr>
+                            <tr><td><label for="">DESCRIPCIÓN: </label> </td> <td>Desarrollador junior de aplicaciones web en lenguaje JavaEE y Spring, trabajo en equipo, diseño e implementacion de servicios API y APIrest, test unitarios, desarrollo guiado por pruebas (T.D.D.), manejo de control de versiones (Git y GitHub), documentacion de aplicaciones, diseño e implementacion de bases de datos, uso de Amazon web services, Docker, seguridad (Spring security, JWT), Hibernate y JPA.</td></tr>
+                            
+                        
+                        </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        PROFESOR CURSO INTRODUCCION A LA PROGRAMACIÓN
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+
+                         <!--CONTENIDO COLLAPSE2-->
+                         <table class="table">
+                            
+                            <tr><td><label for="">EMPRESA: </label></td> <td>INSTITUTO APRENDER</td></tr>
+                            <tr><td><label for="">TIEMPO EN EL PUESTO: </label> </td> <td>Diciembre 2022 al presente</td></tr>
+                            <tr><td><label for="">DESCRIPCIÓN: </label> </td> <td>Profesor de curso en instituto privado, materia: introduccion a la programación. Clases presenciales y virtuales con grupo de alumnos. Elaboracion de material didactico (videos, archivos pdf, presentaciones powerpoint, etc.). <br>
+                            Planificacion anual y diseño de clases. Seguimiento particular de los alumnos, respuesta de consultas via email y whatsapp. <br>
+                        Uso de pseudocodigo en Pseint en inicio del curso y al segundo tramo uso del lenguaje java para profundizar y asentar conocimientos.</td></tr>
+                            
+                        
+                        </table>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingSix">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Vendedor de servicios de telefonía celular (Personal)
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                    <div class="card-body">
+
+                              <!--CONTENIDO COLLAPSE3-->
+                        <table class="table">
+                            
+                            <tr><td><label for="">EMPRESA: </label></td> <td>GOT S.A. (PERSONAL)</td></tr>
+                            <tr><td><label for="">TIEMPO EN EL PUESTO: </label> </td> <td>Octubre 2011 a Enero 2017</td></tr>
+                            <tr><td><label for="">DESCRIPCIÓN: </label> </td> <td>Vendedor de local, servicios y equipos de telefonía celular. Analisis de oportunidades de negocio. Gestión personalizada de clientes potenciales. <br>
+                            Cursos y especialización en estrategias de venta.</td></tr>
+                            
+                        
+                        </table>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+    </div>
+ <br>
+ <br>
+    <!--Footer-->
+    <hr>
+    <div class="container" style="background-color: rgb(255, 255, 255);">
+        <div class="row">
+   
+
+        
+
+            <div class="col-md-4" >
+                <h2 class="brand">AdrianSoftware Design</h2>
+                <p>Profesional en Tecnologia de software</p>
+                <p>Adrián Calderón 2023</p>
+            </div>
+
+            <div class="col-md-4"></div>
+
+            <div class="col-md-4">
+                <br><br><p>Redes sociales:</p>
+                <a href="" class="social-media-icon" style="margin-right: 20px;">
+                    <i class='bx bxl-facebook-square'></i>
+                </a>
+                <a href="" class="social-media-icon" style="margin-right: 20px;">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+                <a href="" class="social-media-icon" style="margin-right: 20px;">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+            </div>
+      
+    
+</div>
+</div>
+
+
+        <!--js de bootstrap,jquery,pooper,etc-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+          
+
+</body>
+</html>
